@@ -1,0 +1,77 @@
+unit frmMenuPrin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.ImageList, Vcl.ImgList,
+  Vcl.Menus, System.Actions, Vcl.ActnList;
+
+type
+  TmenuPrin = class(TForm)
+    ImageList1: TImageList;
+    ActionList1: TActionList;
+    Cad_CliFor: TAction;
+    Cad_Prof: TAction;
+    Cad_Transp: TAction;
+    Cad_Autor: TAction;
+    Cad_Autoria: TAction;
+    Logoff: TAction;
+    Sair: TAction;
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    Estoque1: TMenuItem;
+    Relatrios1: TMenuItem;
+    Utilitrios1: TMenuItem;
+    Ferramentas1: TMenuItem;
+    ClientesFornecedores1: TMenuItem;
+    Professores1: TMenuItem;
+    ransportadoras1: TMenuItem;
+    Autores1: TMenuItem;
+    Autoria1: TMenuItem;
+    N1: TMenuItem;
+    Vendedores1: TMenuItem;
+    abelasAuxiliares1: TMenuItem;
+    N2: TMenuItem;
+    Logoffde1: TMenuItem;
+    SairdoPrograma1: TMenuItem;
+    Cad_VendInt: TAction;
+    Cad_VendExt: TAction;
+    Tab_Ativ: TAction;
+    Tab_Categ: TAction;
+    Tab_Ufs: TAction;
+    Cad_Livro: TAction;
+    Cad_EntLiv: TAction;
+    Ut_Calc: TAction;
+    Ut_Calend: TAction;
+    Ut_BlocoNot: TAction;
+    Ut_WE: TAction;
+    Ut_IE: TAction;
+    Ft_Usuarios: TAction;
+    Ft_Perfil: TAction;
+    VendedoresInternos1: TMenuItem;
+    VendedoresInternos2: TMenuItem;
+    abeladeAtividades1: TMenuItem;
+    abeladeCategorias1: TMenuItem;
+    abeladeUnidadesFederativas1: TMenuItem;
+    CadastrodeLivros1: TMenuItem;
+    EntradadelivrosnoEstoque1: TMenuItem;
+    Calculadora1: TMenuItem;
+    Calendrios1: TMenuItem;
+    BlocodeNotas1: TMenuItem;
+    WindowsExplorer1: TMenuItem;
+    InternetExplorer1: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  menuPrin: TmenuPrin;
+
+implementation
+
+{$R *.dfm}
+
+end.

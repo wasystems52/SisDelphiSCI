@@ -1,0 +1,14 @@
+program SCI;
+
+uses
+  Vcl.Forms,
+  frmMenuPrin in 'frmMenuPrin.pas' {menuPrin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TmenuPrin, menuPrin);
+  Application.Run;
+end.
